@@ -1,0 +1,18 @@
+ http-live-simulator <1.0.6
+ 
+ 
+ {
+  "version": "1.0.0",
+  "description": "",
+  "author": "github-username <email-address>",
+  "repository": "https://github.com/probot/probot",
+  "license": "ISC",
+  "scripts": {
+    "dev": "nodemon --exec \"npm start\"",
+    "start": "probot run ./index.js",
+    "test": "jest && standard"
+  },
+  "dependencies": {
+    "http-live-simulator": "1.0.0"
+  }
+}
